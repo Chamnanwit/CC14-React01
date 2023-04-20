@@ -1,0 +1,68 @@
+/* let list1 = React.createElement('li', null, 'How to create and nest components');
+let list2 = React.createElement('li', null, 'How to add markup and styles');
+let list3 = React.createElement('li', null, 'How to display data');
+let list4 = React.createElement('li', null, 'How to render conditions and lists');
+let list5 = React.createElement('li', null, 'How to respond to events and update the screen');
+let list6 = React.createElement('li', null, 'How to share date between components');
+let lists = React.createElement('ul', null, list1, list2, list3, list4, list5, list6);
+
+const header2 = React.createElement('h2', { className: 'heard2' }, 'You will learn');
+const boxContent = React.createElement('div', {}, header2, lists)
+const content = React.createElement('p', {}, 'Welcome to the React documentation! This page will give you an introduction to the 80% of React concepts that you will use on a daily basis.');
+const header = React.createElement('h1', { className: 'heard' }, 'Quick Start');
+let learn = React.createElement('a', { className: 'learn', href: 'https://www.google.com/' }, 'LEARN  REACT >');
+const card = React.createElement('div', { className: 'card' }, learn, header, content, boxContent); */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Source+Sans+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #23272F;
+    color: white;
+}
+
+.card {
+    width: 40%;
+    margin: auto;
+    margin-top: 120px;
+    /* background-color: #343A46; */
+}
+
+.learn {
+    color: #149ECA;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.learn:hover {
+    text-decoration: underline;
+}
+
+.heard {
+    padding-block: 20px;
+}
+
+.box {
+    background-color: #343A46;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.lists {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F0F2;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 4.8rem;
+}
+
+html {
+    font-size: 62.5%; /* root 16px * 0.625 == 10px */
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.text-red {
+    color: red;
+}
+
+.card {
+    font-size: 2rem;
+    background-color: white;
+    padding: 4rem 3rem;
+    max-width: 700px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* BEM == Box Element Modifier */
+.card__content {
+    text-align: left;
+}
+
+.card__link {
+    color: rgb(56, 72, 143);
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    text-decoration: underline;
+}

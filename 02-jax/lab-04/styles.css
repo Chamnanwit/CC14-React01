@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Source+Sans+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* root 16px * 0.625 == 10px */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-red {
+    color: red;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+}
+
+.main__left {
+    flex: 1;
+    width: auto;
+    /* display: block; */
+}
+
+.main__left--img {
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+.main__right {
+    flex: 1;
+    display: flex;
+}
+
+.main__right--content {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: left;
+    margin: 3rem 0;
+    color: #29005F;
+}
+
+p {
+    font-size: 1.8rem;
+    width: 80%;
+}
+
+form {
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.email {
+    border: 2px solid #29005F;
+    border-radius: 4px;
+    flex: 4;
+    padding: 5px;
+}
+
+.submit {
+    background-color: #29005F;
+    color: white;
+    border-radius: 4px;
+    flex: 2;
+    margin-left: 5px;
+}
