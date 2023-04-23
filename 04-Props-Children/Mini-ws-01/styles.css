@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Prompt:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.8rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+
+.card {
+    width: 230px;
+    height: 415px;
+    margin-inline: 8px;
+    margin-top: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.material__product {
+    color: #b80000;
+}
+
+.name__product {
+    font-weight: 600;
+}
+
+.type__product {
+    color: #737373;
+}
+
+.data__product {
+    color: #737373;
+}
+
+.price__product {
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.price2__product {
+    color: #a1a1a1;
+    text-decoration: line-through;
+}

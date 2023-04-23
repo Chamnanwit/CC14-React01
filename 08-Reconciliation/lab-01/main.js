@@ -1,4 +1,8 @@
 function App () {
+
+    const arr = ['Tong', 'Tan', 'Zup'];
+    const [friend, setFriend] = React.useState(arr);
+
     return <div className='container'>Lab</div>
 }
 

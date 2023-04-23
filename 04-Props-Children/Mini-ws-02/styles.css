@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Prompt:wght@300&display=swap');
+
+/* function NikeTop ({name}) {
+    return (
+        <span>{name}</span>
+    );
+}
+
+
+function NikeBottom (props) {
+    return (
+        <>
+        <h6>{props.listName}</h6>
+        {props.children}
+        </>
+    );
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.2rem;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.head * {
+    font-weight: 600;
+    margin-inline: 20px;
+    padding-bottom: 15px;
+}
+
+.head :first-child {
+    border-bottom: 2px solid black;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    min-width: 100px;
+}
+
+.box {
+    text-align: left;
+    min-width: 250px;
+}
+
+.box :first-child {
+    font-size: 1rem;
+}
+
+.box p {
+    color: #737373;
+    font-size: 0.7rem;
+}

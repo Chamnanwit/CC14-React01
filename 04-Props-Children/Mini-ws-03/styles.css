@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 96, 45);
+    height: 100vh;
+}
+
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3fr repeat(5, 1fr);
+    font-size: 2rem;
+
+    /* background: red; */
+    width: 500px;
+    height: 800px;
+}
+
+.item--1 {
+    background: rgb(47, 47, 47);
+    color: white;
+    font-size: 5rem;
+    font-weight: 200;
+    text-align: right;
+    padding-bottom: 10px;
+    border-radius: 16px 16px 0 0;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.keypress {
+    background-color: rgb(223, 222, 222);
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(202, 200, 200);
+}
+
+.bg--gray {
+    background-color: rgb(210, 207, 207);
+}
+
+.bg--orange {
+    background-color: rgb(193, 138, 87);
+}
+
+.bg--orange2 {
+    background-color: rgb(182, 114, 65);
+}
+
+.radiusL {
+    border-radius: 0 0 0 16px;
+}
+
+.radiusR {
+    border-radius: 0 0 16px 0;
+}
